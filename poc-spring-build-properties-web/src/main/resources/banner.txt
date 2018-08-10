@@ -1,0 +1,3 @@
+SIPPE
+${application.title}
+${application.version}
