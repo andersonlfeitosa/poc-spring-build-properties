@@ -6,7 +6,6 @@ import org.springframework.boot.info.BuildProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
 @RestController
 public class VersionController {
 
@@ -20,7 +19,7 @@ public class VersionController {
   public String version() {
 
     if (buildProperties != null) {
-      String.format("%s %s", springAppName, buildProperties.getVersion());
+      return String.format("%s %s", springAppName, buildProperties.getVersion());
     }
 
     return String.format("%s %s", springAppName, "default");

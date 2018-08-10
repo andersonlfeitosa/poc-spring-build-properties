@@ -12,6 +12,7 @@
   </parent>
 
   <artifactId>poc-spring-build-properties-lib</artifactId>
+  <version>1.0.0-LIB-SNAPSHOT</version>
 
   <dependencies>
     <dependency>
